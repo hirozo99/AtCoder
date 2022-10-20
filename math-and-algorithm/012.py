@@ -1,3 +1,5 @@
+#Nが素数であるかどうかを判定してください。
+
 def isprime(N):
     if N < 2:
         return "No"
