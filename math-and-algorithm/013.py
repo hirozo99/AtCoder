@@ -1,6 +1,4 @@
 #整数Nが与えられます。 Nの約数を列挙してください。
-
-
 def make_divisors(n):
     divisors = []
     for i in range(1, int(n**0.5)+1):
