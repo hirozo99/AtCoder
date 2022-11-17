@@ -11,3 +11,4 @@ for i in range(n):
 	if not s1.count(s[i][0]) or not s2.count(s[i][1]):
 		ans = False
 print("Yes" if ans else "No")
+
