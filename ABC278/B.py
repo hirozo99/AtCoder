@@ -1,4 +1,5 @@
 #解説の実装
+
 def is_in_24_hours(h, m):
   return 0 <= h <= 23 and 0 <= m <= 59
 
