@@ -1,5 +1,3 @@
-#解説の実装
-
 def is_in_24_hours(h, m):
   return 0 <= h <= 23 and 0 <= m <= 59
 
@@ -13,7 +11,7 @@ def misjudged(h, m):
 H, M = map(int, input().split())
 while not misjudged(H, M):
   M += 1
-  if M == 60:
+  if  M == 60:
     H, M = H + 1, 0
   if H == 24:
     H = 0
