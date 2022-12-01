@@ -1,8 +1,6 @@
 N, M, X, T, D == map(int, input().split())
 
-height = 1
-if X <= M:
-
-    height += D * X
-elif
-
+if X <= M <= N:
+    print(T)
+else:
+    print(T - (X - M) * D)
