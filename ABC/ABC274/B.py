@@ -1,15 +1,11 @@
 H, W = map(int, input().split())
+c = [input() for i in range(H)]
 
-check_list = []
-for _ in range(H):
-    c = list(input())
-    check_list.append(c)
-
-ans = []
+n = []
 for w in range(W):
     count = 0
     for h in range(H):
-        if check_list[h][w] == "#":
+        if c[h][w] == "#":
             count += 1
-    ans.append(count)
-print(*ans)
+    n.append(count)
+print(*n)
