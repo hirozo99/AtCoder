@@ -1,14 +1,3 @@
-X, K = map(int, input().split())
-
-for i in range(1, K + 1):
-    target = X % 10 ** i
-    if target >= 5 * 10 ** (i - 1):
-        X += 10 ** i - target
-    else:
-        X -= target
-
-print(X)
-
 x, k = map(int, input().split())
 for i in range(k + 1):
     x = round(x + 0.5, -i)
