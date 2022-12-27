@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC272/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC271/B.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/Users/katohiro/PycharmProjects/AtCoder",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "copyright"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -62,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add">
-      <created>1669534984387</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1669534984387</updated>
     </task>
     <task id="LOCAL-00034" summary="add">
       <created>1669537205427</created>
@@ -406,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671677830115</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="add">
+      <created>1672123578752</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1672123578752</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
