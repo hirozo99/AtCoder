@@ -20,7 +20,6 @@ mathp.sort(reverse=True)
 for i in range(X):
     # 答えに合格者の番号を格納
     ans.append(-mathp[i][1])
-print(ans)
 # 英語の点数と受験番号リスト
 engp = []
 
