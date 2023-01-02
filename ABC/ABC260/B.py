@@ -5,63 +5,61 @@ B = list(map(int, input().split()))
 # 合格者のリスト
 ans=[]
 
-# 数学の点数と受験番号リスト
-MathP=[]
+# 数学の得点と受験番号リスト
+mathp=[]
 
-# i=0~(N-1)
+# i=0からi=N-1
 for i in range(N):
-    # 「数学の点数」,「受験番号のマイナス」を記録
-    MathP.append([A[i],-(i+1)])
+    # 「数学の得点」,「受験番号のマイナス」を記録
+    mathp.append([A[i], -(i+1)])
 # 大きい順にソート
-MathP.sort(reverse=True)
+mathp.sort(reverse=True)
 
 # リストの前からX人合格
-# i=0~(X-1)
+# i=0からi=X-1
 for i in range(X):
     # 答えに合格者の番号を格納
-    ans.append(-MathP[i][1])
-
+    ans.append(-mathp[i][1])
+print(ans)
 # 英語の点数と受験番号リスト
-EngP=[]
+engp = []
 
-# i=0~(N-1)
+# i=0からi=N-1
 for i in range(N):
-    # 合格者のリストに番号がなければ
-    if (i+1) not in ans:
-        # 「英語の点数」,「受験番号のマイナス」を記録
-        EngP.append([B[i],-(i+1)])
+    if i+1 not in ans:
+        engp.append([B[i], -(i+1)])
 # 大きい順にソート
-EngP.sort(reverse=True)
+engp.sort(reverse=True)
 
 # リストの前からY人合格
-# i=0~(Y-1)
+# i=0からi=Y-1
 for i in range(Y):
     # 答えに合格者の番号を格納
-    ans.append(-EngP[i][1])
+    ans.append(-engp[i][1])
 
 # 数学と英語の合計点数と受験番号リスト
-MEP=[]
+mep = []
 
-# i=0~(N-1)
+# i=0からi=N-1
 for i in range(N):
     # 合格者のリストに番号がなければ
-    if (i+1) not in ans:
-        # 「数学と英語の合計点数」,「受験番号のマイナス」を記録
-        MEP.append([A[i]+B[i],-(i+1)])
+    if i+1 not in ans:
+        mep.append([A[i]+B[i], -(i+1)])
 # 大きい順にソート
-MEP.sort(reverse=True)
+mep.sort(reverse=True)
 
 # リストの前からZ人合格
-# i=0~(Z-1)
+# i=0からi=-1
 for i in range(Z):
     # 答えに合格者の番号を格納
-    ans.append(-MEP[i][1])
+    ans.append(-mep[i][1])
 
 # 答えのリストをソート
 ans.sort()
 
-# x：ansの各要素
+# x:ansの各要素
 for x in ans:
     # xを出力
     print(x)
+
 
