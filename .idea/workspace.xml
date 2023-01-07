@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC258/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC259/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC257/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC284/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC284/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC284/C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC284/D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add">
-      <created>1669980244329</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1669980244330</updated>
     </task>
     <task id="LOCAL-00051" summary="add">
       <created>1669981407224</created>
@@ -407,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672682019279</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="add">
+      <created>1673013913984</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1673013913984</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
