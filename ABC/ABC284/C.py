@@ -1,41 +1,24 @@
-from collections import defaultdict
-
 N, M = map(int, input().split())
-
-U = ["$"]
-V = ["$"]
+visited = [False for _ in range(N)]
+from collections import defaultdict
+uv = defaultdict(list)
 for i in range(M):
     u, v = map(int, input().split())
-    U.append(u)
-    V.append(v)
-
-
-
-def count_connected_components(N, M, edges):
-    graph = defaultdict(list)
-    # グラフを構築する
-    for u, v in edges:
-        graph[u].append(v)
-        graph[v].append(u)
-
-    # 頂点を訪問したかどうかを示す配列
-    visited = [False] * (N + 1)
-    count = 0
-
-    # 頂点を訪問する再帰関数
-    def dfs(v):
-        visited[v] = True
-        for neighbor in graph[v]:
-            if not visited[neighbor]:
-                dfs(neighbor)
-
-    # 全ての頂点を訪問する
-    for v in range(1, N + 1):
-        if not visited[v]:
-            dfs(v)
-            count += 1
-
-    return count
-
-print(count_connected_components(N, M, edges))
-
+    uv[u-1].append(v-1)
+    uv[v-1].append(u-1)
+def dfs(now, ans=0):
+    next = uv[now]
+    if next == []:
+        ans = 1
+    for i in next:
+        if visited[i]:
+            continue
+        else:
+            visited[i] = True
+            ans += 1
+            dfs(i)
+    return ans
+ans = 0
+for i in range(N):
+    ans += dfs(i)
+print(ans)

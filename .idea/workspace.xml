@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC/ABC284/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC284/B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/ABC284/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC284/C.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00053" summary="add">
-      <created>1669984673735</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1669984673735</updated>
     </task>
     <task id="LOCAL-00054" summary="add">
       <created>1670121466885</created>
@@ -406,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673257059899</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="add">
+      <created>1673257973098</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1673257973098</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,6 +478,11 @@
           <url>file://$PROJECT_DIR$/ABC275/A.py</url>
           <line>3</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ABC/ABC284/C.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
