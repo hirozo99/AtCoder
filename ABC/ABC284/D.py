@@ -1,35 +1,29 @@
-import math
-T = int(input())
-def factorization(n):
-    arr = []
-    temp = n
-    for i in range(2, int(-(-n**0.5//1))+1):
-        if temp%i==0:
-            cnt=0
-            while temp%i==0:
-                cnt+=1
-                temp //= i
-            arr.append([i, cnt])
+# pypyで提出
 
-    if temp!=1:
-        arr.append([temp, 1])
+# 平方根計算用にsqrtをインポート
+from math import sqrt
 
-    if arr==[]:
-        arr.append([n, 1])
+# 入力の受け取り
+T=int(input())
 
-    return arr
+# T回
+for i in range(T):
+    # 入力の受け取り
+    N=int(input())
 
-
-k = [1, 1]
-n =[]
-for t in range(T):
-    N = int(input())
-    n.append(N)
-
-for t in range(T):
-    if n[t] == 1:
-        print(*k)
-    else:
-        print(factorization(n[t])[0][0], factorization(n[t])[1][0])
-
-
+    # x=2~10^7
+    for x in range(2,10**7+1):
+        # Nがx^2で割り切れる場合
+        # ⇔p=x
+        if N%x**2==0:
+            # q=N//x^2
+            print(x,N//x**2)
+            # 次のNへ
+            break
+        # Nがxで割り切れる場合
+        # ⇔q=x
+        elif N%x==0:
+            # p=√(N//q)
+            print(int(sqrt(N//x)),x)
+            # 次のpへ
+            break

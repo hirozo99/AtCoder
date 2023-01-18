@@ -7,5 +7,3 @@ def q_num():
     return ans
 
 print(q_num())
-
-
