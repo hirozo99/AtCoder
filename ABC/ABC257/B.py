@@ -2,10 +2,14 @@ N, K, Q = map(int, input().split())
 A = list(map(int, input().split()))
 L = list(map(int, input().split()))
 
+# N+1マスのマス目を用意
+# 0ならばコマがない
+# 1ならばコマがある
 box = [0 for _ in range(N+1)]
 for i in range(K):
     box[A[i]] = 1
 
+# 左からx番目のコマが置かれたマス目を返す関数
 def koma_num(x):
     count = 0
     for i, now_koma in enumerate(box):
