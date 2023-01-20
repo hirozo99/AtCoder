@@ -63,20 +63,6 @@
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
     </task>
-    <task id="LOCAL-00060" summary="add">
-      <created>1670578118639</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1670578118639</updated>
-    </task>
-    <task id="LOCAL-00061" summary="add">
-      <created>1670579121283</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1670579121284</updated>
-    </task>
     <task id="LOCAL-00062" summary="add">
       <created>1670737329120</created>
       <option name="number" value="00062" />
@@ -406,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674053312816</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="add">
+      <created>1674139361138</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1674139361138</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add">
+      <created>1674139864812</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1674139864813</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,8 +486,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ABC/ABC257/B.py</url>
-          <line>18</line>
+          <line>22</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ABC/ABC257/B.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
