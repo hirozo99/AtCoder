@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC256/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC286/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC286/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC286/C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC286/D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/ABC286/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC286/A.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00063" summary="add">
-      <created>1670744106189</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1670744106189</updated>
     </task>
     <task id="LOCAL-00064" summary="add">
       <created>1670776036891</created>
@@ -410,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674199780257</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="add">
+      <created>1674308336502</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1674308336502</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,6 +493,10 @@
           <url>file://$PROJECT_DIR$/ABC/ABC257/B.py</url>
           <line>45</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ABC/ABC286/B.py</url>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
