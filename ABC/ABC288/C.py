@@ -1,24 +1,33 @@
-N,M = map(int, input().split())
-Adj = [[] * N for _ in range(N)]
-
+N, M = map(int, input().split())
+E = []
 for _ in range(M):
-  A,B = map(int, input().split())
-  Adj[A-1].append(B-1)
-  Adj[B-1].append(A-1)
+    a, b = map(lambda x: int(x) - 1, input().split())
+    E.append((a, b))
+# ------------------
+p = [-1] * (N + 1)
+def root(x):
+  if p[x] < 0:
+    return x
+  p[x] = root(p[x])
+  return p[x]
+ 
+def unite(x, y):
+  x = root(x)
+  y = root(y)
+  if x == y:
+    return
+  p[x] += p[y]
+  p[y] = x
 
-def dfs(x):
-  for y in Adj[x]:
-    if not visited[y]:
-      visited[y] = True
-      dfs(y)
+def size(x):
+  x = root(x)
+  return -p[x]
+# ------------------
+cnt = 0
+for a, b in E:
+    if root(a) != root(b):
+        unite(a, b)
+    else:
+        cnt += 1
 
-visited = [False] * N
-cyc = 0
-
-for i in range(N):
-  if not visited[i]:
-    visited[i] = True
-    dfs(i)
-    cyc += 1
-
-print(M - N + cyc)
+print(cnt)
