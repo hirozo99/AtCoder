@@ -10,7 +10,7 @@ def root(x):
     return x
   p[x] = root(p[x])
   return p[x]
- 
+  
 def unite(x, y):
   x = root(x)
   y = root(y)
