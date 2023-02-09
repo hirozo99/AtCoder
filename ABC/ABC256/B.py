@@ -1,4 +1,4 @@
-# 入力の受け取り
+# 入力
 N=int(input())
 A=list(map(int,input().split()))
 
