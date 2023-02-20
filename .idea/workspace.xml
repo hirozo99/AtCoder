@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add" />
+    <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/ABC/ABC255/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC290/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC290/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC290/C.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/ABC289/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC289/A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/ABC289/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC289/B.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,20 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00076" summary="add">
-      <created>1671461031512</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1671461031512</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add">
-      <created>1671502918797</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1671502918797</updated>
     </task>
     <task id="LOCAL-00078" summary="add">
       <created>1671673114074</created>
@@ -403,7 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675953881316</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="add">
+      <created>1675954057244</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1675954057244</updated>
+    </task>
+    <task id="LOCAL-00126" summary="add">
+      <created>1676116348526</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1676116348526</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,6 +502,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ABC/ABC286/B.py</url>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ABC/ABC289/B.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
