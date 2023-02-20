@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7056010-9cd5-4276-8475-d89277847f39" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC255/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC290/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC290/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC290/C.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC/ABC289/A.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC289/A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC/ABC289/B.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC289/B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/ABC290/C.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/ABC290/C.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668157246667</updated>
-    </task>
-    <task id="LOCAL-00078" summary="add">
-      <created>1671673114074</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1671673114074</updated>
     </task>
     <task id="LOCAL-00079" summary="add">
       <created>1671677537664</created>
@@ -411,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676116348526</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="add">
+      <created>1676894478231</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1676894478231</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,6 +502,11 @@
           <url>file://$PROJECT_DIR$/ABC/ABC289/B.py</url>
           <line>4</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ABC/ABC290/C.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
