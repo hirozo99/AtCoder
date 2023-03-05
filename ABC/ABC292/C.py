@@ -1,13 +1,31 @@
-N = int(input())
+# N の約数の個数をカウント
+def divisors(N):
+    num=0
+    for i in range(1,N+1):
+        if i*i>N:
+            break
+        if N%i!=0:
+            continue
 
-def count_combinations(n):
-    count = 0
-    for a in range(1, n+1):
-        for b in range(1, n//a+1):
-            for c in range(1, n+1):
-                d = (n - a*b)//c
-                if d >= 1 and a*b + c*d == n:
-                    count += 1
-    return count
+        num+=1
+        if N//i!=i:
+            num+=1
 
-print(count_combinations(N))
+    return num
+
+
+if __name__ =="__main__":
+    N=int(input())
+    # 約数の個数を管理
+    table=[0 for _ in range(N)]
+    for i in range(1,N):
+        table[i]=divisors(i)
+
+    ans=0
+    # AB の値を全探索
+    for i in range(1,N):
+        ab=i
+        cd=N-i
+        ans+=table[ab]*table[cd]
+
+    print(ans)
