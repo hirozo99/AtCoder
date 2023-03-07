@@ -12,3 +12,4 @@ def divisors(N):
             num+=1
 
     return num
+
