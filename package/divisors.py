@@ -13,3 +13,4 @@ def divisors(N):
 
     return num
 
+print(divisors(int(input())))
