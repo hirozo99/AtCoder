@@ -6,7 +6,6 @@ C = sorted(A + B)
 
 get_index = {c: i + 1 for i, c in enumerate(C)}
 
-print(get_index)
 for a in A:
     print(get_index[a])
 
